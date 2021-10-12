@@ -30,7 +30,9 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": ["node_modules/earcut/dist/earcut.min.js"]
+            "scripts": [
+              "node_modules/earcut/dist/earcut.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -123,6 +125,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "Viewer3d"
+    }
+  },
+  "defaultProject": "Viewer3d",
+  "cli": {
+    "analytics": false
+  }
 }
